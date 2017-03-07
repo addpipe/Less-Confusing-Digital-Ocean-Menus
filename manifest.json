@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Less Confusing Digital Ocean Menus",
+  "description": "This extension moves some of the DO menus around",
+  "version": "1.0",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["https://cloud.digitalocean.com/*"],
+    "run_at": "document_end"
+  }]
+
+}

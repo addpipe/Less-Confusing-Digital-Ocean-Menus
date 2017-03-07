@@ -1,0 +1,60 @@
+/* 
+
+DO uses .navLink for the top left menu items.
+
+DO uses .action-item for the drop down menu and continuously applies 
+the style while navigating.
+
+We could not continuously apply .navLink to the 2 links we've moved so 
+we've created very specific CSS rules to target those 2 links and their 
+(DO enforced) .action-item class and apply the .navLink CSS rules.
+
+*/
+
+.nav-bar .nav_controls .row .columns a.action-item {
+    display: block;
+    float: left;
+    color: #676767;
+    margin-right: 25px;
+    line-height: 80px;
+    padding: 0;
+    border-bottom: 0;
+    position: relative;
+    font-weight: 600;
+}
+.nav-bar .nav_controls .row .columns a.action-item.active,
+.nav-bar .nav_controls .row .columns a.action-item.active:focus{
+    color: #0069ff
+}
+.nav-bar .nav_controls .row .columns a.action-item:focus,
+.nav-bar .nav_controls .row .columns a.action-item:hover{
+    outline: 0;
+    color: #0069ff
+}
+.nav-bar .nav_controls .row .columns a.action-item:focus::before,
+.nav-bar .nav_controls .row .columns a.action-item:hover::before {
+    content: '';
+    display: block;
+    position: absolute;
+    background: #0069ff;
+    width: 100%;
+    height: 2px;
+    bottom: 23px
+}
+.nav-bar .nav_controls .row .columns a.action-item:first-of-type {
+    margin-left: 25px
+}
+.nav-bar .nav_controls .row .columns a.action-item.help {
+    float: right;
+    margin: 0 30px
+}
+
+/* More generic CSS rules for the notifications badge */ 
+span.notification-count {
+    background-color: #da4429;
+    border-radius: 10px;
+    margin-left: 5px;
+    color: #fff;
+    padding: 2px 7px 1px;
+    font-size: 13px
+}
