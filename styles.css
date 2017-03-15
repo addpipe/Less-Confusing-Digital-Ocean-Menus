@@ -20,7 +20,7 @@ we've created very specific CSS rules to target those 2 links and their
     padding: 0;
     border-bottom: 0;
     position: relative;
-    font-weight: 600;
+    /* font-weight: 600; */
 }
 .nav-bar .nav_controls .row .columns a.action-item.active,
 .nav-bar .nav_controls .row .columns a.action-item.active:focus{
