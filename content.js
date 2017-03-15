@@ -58,9 +58,13 @@ function initExtension(){
   }
 
   if (notificationsAElement != undefined){
+
+    //rename the "Notifications" link to "Notf" to make room for all items since the new Monitoring(BETA) link takes up quite a bit of space
+    notificationsAElement.innerHTML = notificationsAElement.innerHTML.replace("Notifications","Notf");
+
     //move the account level Notifications link from the drop down
     supportAElement.parentNode.insertBefore(notificationsAElement,supportAElement.nextSibling);
-
+    
     //set the CSS Style for the top left menu
     notificationsAElement.className="navLink ember-view"
 
