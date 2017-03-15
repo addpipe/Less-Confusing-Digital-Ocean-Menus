@@ -10,6 +10,15 @@
     "js": ["content.js"],
     "matches": ["https://cloud.digitalocean.com/*"],
     "run_at": "document_end"
-  }]
+  }],
 
+  "icons": { 
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png" },
+
+  "browser_action": {
+    "default_icon": "icon38.png"
+}
 }
