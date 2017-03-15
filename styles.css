@@ -49,7 +49,7 @@ we've created very specific CSS rules to target those 2 links and their
     margin: 0 30px
 }
 
-/* More generic CSS rules for the notifications badge */ 
+/* More generic CSS rules for the notifications badge */
 span.notification-count {
     background-color: #da4429;
     border-radius: 10px;
@@ -57,4 +57,13 @@ span.notification-count {
     color: #fff;
     padding: 2px 7px 1px;
     font-size: 13px
+}
+
+/*  Make the menu links font regular instead of bold (weight:600) 
+    to make room for the new Monitoring menu item. Targeting 
+    .nav_controls .navLink. is not enough, it gets overwritten 
+    so we've added .ember-view */
+
+.nav_controls .navLink.ember-view{
+    font-weight: normal;
 }
