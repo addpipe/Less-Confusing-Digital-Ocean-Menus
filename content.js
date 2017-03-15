@@ -20,8 +20,8 @@ function initExtension(){
     console.log("links["+i+"].href:"+links[i].href);
     
     if (links[i].innerHTML.trim()=="Notifications" && links[i].href.indexOf("/notifications")!=-1){
-      //if this is the  Notification link in the left side menu from the Settings page
-      //this link leads to an "E-mail subscriptions" page so let's rename it
+      //if this is the  Notification link in the left side area on the Settings page
+      //this link leads to an "E-mail subscriptions" page so let's make that clear
       links[i].innerHTML="E-mail subscriptions";
     } else if (links[i].innerHTML.indexOf("Notifications<")==0 && links[i].href.indexOf("/notifications")!=-1){
       //if this is the Notifications link in the top right drop down menu
