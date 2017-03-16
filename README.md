@@ -1,6 +1,6 @@
 # Less-Confusing-Digital-Ocean-Menus
 
-I manage more than 100 DO droplets across 3 accounts & teams and their navigation always confused me.
+I manage more than 100 DO droplets across many accounts and their navigation always confused me.
 
 This simple Chrome extension makes the Digital Ocean account menus less confusing:
 
