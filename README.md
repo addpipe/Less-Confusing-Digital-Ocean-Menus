@@ -8,6 +8,6 @@ This simple Chrome extension makes the Digital Ocean account menus less confusin
 * Renames `Settings > Notifications` to `Settings > E-mail subscriptions` which is where it actually takes you
 
 
-**Install**
+**Install:**
 
 [Get it from Chrome Webstore](https://chrome.google.com/webstore/detail/less-confusing-digital-oc/fbcimbafahpbjimdoonmmjjngjcdoodb)
