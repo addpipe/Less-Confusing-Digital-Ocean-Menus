@@ -1,5 +1,11 @@
 # Less-Confusing-Digital-Ocean-Menus
-A simple Chrome extension that makes the Digital Ocean menus less confusing for those using Teams:
 
-* `Settings` and `Notifications` moved from the top right drop down menu to the top left menu where they belong (together with all the other account level sections)
-* `Settings > Notifications` renamed to `Settings > E-mail subscriptions`  which is where it takes you
+I manage more than 100 DO droplets across 3 accounts & teams and their navigation always confused me.
+
+This simple Chrome extension makes the Digital Ocean account menus less confusing:
+
+* Moves `Settings` and `Notifications` to the top menu where they belong with the other *account level* links
+* Renames `Settings > Notifications` to `Settings > E-mail subscriptions` which is where it actually takes you
+
+
+[Get it from Chrome Webstore](https://chrome.google.com/webstore/detail/less-confusing-digital-oc/fbcimbafahpbjimdoonmmjjngjcdoodb)
