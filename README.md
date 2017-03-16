@@ -9,12 +9,10 @@ This simple Chrome extension makes the Digital Ocean account menus less confusin
 
 
 **Install:**
-
 [Get it from Chrome Webstore](https://chrome.google.com/webstore/detail/less-confusing-digital-oc/fbcimbafahpbjimdoonmmjjngjcdoodb)
 
 
 **Screenshots:**
-
 ![Less Confusing Digital Ocean Account Level Links](https://raw.githubusercontent.com/addpipe/Less-Confusing-Digital-Ocean-Menus/master/screenshot1.png)
 
 ![Less Confusing Digital Ocean E-mail subscriptions link](https://raw.githubusercontent.com/addpipe/Less-Confusing-Digital-Ocean-Menus/master/screenshot2.png)
