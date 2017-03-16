@@ -15,6 +15,6 @@ This simple Chrome extension makes the Digital Ocean account menus less confusin
 
 **Screenshots:**
 
-![Less Confusing Digital Ocean Account Level Links](//raw.githubusercontent.com/addpipe/Less-Confusing-Digital-Ocean-Menus/master/screenshot1.png)
+![Less Confusing Digital Ocean Account Level Links](https://raw.githubusercontent.com/addpipe/Less-Confusing-Digital-Ocean-Menus/master/screenshot1.png)
 
-![Less Confusing Digital Ocean E-mail subscriptions link](//raw.githubusercontent.com/addpipe/Less-Confusing-Digital-Ocean-Menus/master/screenshot2.png)
+![Less Confusing Digital Ocean E-mail subscriptions link](https://raw.githubusercontent.com/addpipe/Less-Confusing-Digital-Ocean-Menus/master/screenshot2.png)
