@@ -67,3 +67,9 @@ span.notification-count {
 .nav_controls .navLink.ember-view{
     font-weight: normal;
 }
+
+/*  reduce the right margin on top menu items from 25 to 20 
+    to make more room for the new Monitoring BETA menu item */
+.nav_controls .navLink.ember-view {
+    margin-right:20px;
+}
